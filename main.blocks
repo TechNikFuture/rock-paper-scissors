@@ -1,19 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</variable></variables><block type="device_forever" id="-qmzO}HCUD*]5TkWYAt$" x="558" y="-157"/><block type="device_button_selected_event" id="#(iQov%68o^*^Nu]7~VT" x="58" y="-38"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="3j6wNcYGKqY+KwQX!DHW"/></value><statement name="HANDLER"><block type="variables_set" id="xNV]l?;UF2PHW=R@00r)"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="O0Q/||#0-JsnJJ?}a8z9"><value name="min"><shadow type="math_number" id="=DAz~,)aQ#j!uB1KCx3@"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id=";jK2F?pNu:+w$v$$GNKh"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="d/]w;KhBgDzMPS$L5gS*"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="AZ#WJKe}n1}B,~AwQ-mk"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="HjZwNA`eyovtz!VJVqi`"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="ss7X~k8k5{lo[;G@Y}ld"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="98y1CMXqRyIOsLEIZ3:*"><field name="LEDS">`
-        . . . . . 
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</variable></variables><block type="device_button_selected_event" id="#(iQov%68o^*^Nu]7~VT" x="0" y="0"><field name="NAME">Button.A</field><value name="eventType"><shadow type="control_button_event_click" id="3j6wNcYGKqY+KwQX!DHW"/></value><statement name="HANDLER"><block type="variables_set" id="xNV]l?;UF2PHW=R@00r)"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="O0Q/||#0-JsnJJ?}a8z9"><value name="min"><shadow type="math_number" id="=DAz~,)aQ#j!uB1KCx3@"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id=";jK2F?pNu:+w$v$$GNKh"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="d/]w;KhBgDzMPS$L5gS*"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="AZ#WJKe}n1}B,~AwQ-mk"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="HjZwNA`eyovtz!VJVqi`"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="ss7X~k8k5{lo[;G@Y}ld"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="98y1CMXqRyIOsLEIZ3:*"><field name="LEDS">`
+        . . # . . 
         . # # # . 
-        . # . # . 
-        . # # # . 
-        . . . . .
-        `</field></block></statement><next><block type="controls_if" id=").Y~$}7Lbr+D+GYx[cla"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="~t2so)K6pJ]@D!)uL1Kk"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="xgPl{i:M@aD7KH@^M(xL"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="|J*q3L/tp;$#G(Q-k_o}"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Q]dd{dO,LbRm:s5APaoN"><field name="LEDS">`
-        . . . . . 
-        . # # # . 
-        . # # # . 
-        . # # # . 
+        # # # # # 
+        # # # # # 
         . # # # .
+        `</field></block></statement><next><block type="controls_if" id=").Y~$}7Lbr+D+GYx[cla"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="~t2so)K6pJ]@D!)uL1Kk"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="xgPl{i:M@aD7KH@^M(xL"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="|J*q3L/tp;$#G(Q-k_o}"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="Q]dd{dO,LbRm:s5APaoN"><field name="LEDS">`
+        . . # # . 
+        . # # # # 
+        # # # # # 
+        # # # # . 
+        . # # . .
         `</field></block></statement><next><block type="controls_if" id="7EM3Jv-fqG0JZz3Fi@#y"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=")M|#5vh3sMLm:VkIrW-S"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="VR4YdH;kujSHYqs1=$8~"><field name="VAR" id="W1L`a=wD/l^f3O`%v$E+">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="hZC1%hX~G2wMBzehyU.j"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="/_#UNzV.3=%?xTEvakPc"><field name="LEDS">`
         # . . . # 
         . # . # . 
         . . # . . 
         # # . # # 
         # # . # #
-        `</field></block></statement></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="J97@c9ztZUQB2z]iYY4q" x="839" y="1"/></xml>
+        `</field></block></statement></block></next></block></next></block></next></block></statement></block></xml>
